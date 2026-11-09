@@ -26,7 +26,7 @@ app.get("/api/sistema", async (req, res) => {
     discoTotal: disco[0].size,
     discoLibre: disco[0].available,
     ip: red[0]?.ip4 || "No disponible",
-interfaz: red[0]?.iface || "No disponible"
+interfaz: red[0]?.iface || "No disponible",
 uptime: tiempo.uptime
 });
 
