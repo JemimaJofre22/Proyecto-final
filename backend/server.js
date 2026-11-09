@@ -1,8 +1,9 @@
 const express = require("express");
 const si = require("systeminformation");
+const path = require('path');
 
 const app = express();
-
+app.use(express.static(path.join(__dirname, '../frontend')));
 const PORT = 3000;
 
 app.get("/", (req, res) => {
