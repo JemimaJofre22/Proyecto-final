@@ -85,6 +85,6 @@ io.on('connection', (socket) => {
 });
 
 // Importante: Usamos server.listen en lugar de app.listen para que funcione Socket.IO
-server.listen(PORT, () => {
-    console.log(`Servidor escuchando en http://localhost:${PORT}`);
+server.listen(PORT, '0.0.0.0', () => {
+    console.log(`Servidor escuchando en http://0.0.0.0:${PORT}`);
 });
