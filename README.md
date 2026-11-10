@@ -115,16 +115,16 @@ graph LR
 ## 11. Capturas de Pantalla
 
 ### Ejecución del Dashboard en Windows
-![Windows](1.windows-dashboard.png)
+![Windows](img/1.windows-dashboard.png)
 
 ### Ejecución del Dashboard en Debian
-![Debian](2.debian-dashboard.png)
+![Debian](img/2.debian-dashboard.png)
 
 ### Aplicación Web en Navegador
-![Navegador](3.web-dashboard.png)
+![Navegador](img/3.web-dashboard.png)
 
 ### APK Generada
-![APK](4.apk-generada.png)
+![APK](img/4.apk-generada.png)
 
 
 ## 12. Pruebas Realizadas
