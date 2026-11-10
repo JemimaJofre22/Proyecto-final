@@ -11,9 +11,11 @@ La aplicación está desarrollada separando claramente el cliente y el servidor,
 
 ## 2. Vista en el Navegador Web y en Dispositivo Móvil
 La interfaz web muestra tarjetas estilizadas con Bootstrap y gráficos dinámicos actualizados segundo a segundo mediante WebSockets.
+   
    (Nota: Aquí puedes colocar la captura de pantalla de cómo se ve en tu navegador local).
 
 Gracias a la separación de capas, el frontend fue empaquetado como aplicación nativa Android utilizando herramientas de conversión HTML2APK.
+   
    (Nota: Aquí puedes colocar la captura de cómo se ve en el celular o emulador).
 
 ## 3. Guía de Instalación y Puesta en Marcha Local
