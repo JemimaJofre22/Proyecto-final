@@ -32,16 +32,23 @@ d- Iniciar el servidor Node.js:
 e- Acceder a la aplicación:
      Abre tu navegador web e ingresa a: http://localhost:3000
 
+## 4. Despliegue en Servidor (Systemd)
+Para garantizar que la aplicación se ejecute de manera continua y se levante automáticamente al reiniciar el servidor GNU/Linux, se configura como un servicio de Systemd:   
+-Crear el archivo de servicio: sudo nano /etc/systemd/system/monitorsistema.service
+-Configurar las rutas del directorio de trabajo y el comando de ejecución (node server.js).
+-Habilitar y arrancar el servicio: 
+   sudo systemctl daemon-reload
+   sudo systemctl start monitorsistema
+   sudo systemctl enable monitorsistema
 
-## 4. GitHub Helpers y Enlaces de Interés
+## 5. GitHub Helpers y Enlaces de Interés
 Conforme a las herramientas de apoyo solicitadas por la cátedra para la auditoría y análisis del repositorio, se pueden utilizar los siguientes helpers:
 - Visualizador de Estructura / Git: GitDiagram para inspeccionar el flujo de trabajo de las ramas.
 - Editor Web Instantáneo: GitHub1s para abrir el repositorio directamente con interfaz de VS Code en el navegador.
 - Empaquetado APK: Generado mediante la herramienta HTML2APK para su distribución en dispositivos móviles
 
 
-
-## 5. Arquitectura del Sistema y Despliegue
+## 6. Arquitectura del Sistema y Despliegue
 El sistema opera bajo una arquitectura cliente-servidor en tiempo real, donde el backend recopila datos del sistema operativo y los emite mediante WebSockets hacia las interfaces web y móviles.
 
 
