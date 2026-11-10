@@ -1,7 +1,5 @@
 // Configuración dinámica del servidor para la app web y la APK móvil (compatible con localhost y red local/VM)
-const SOCKET_URL = window.location.hostname === 'localhost' 
-    ? 'http://localhost:3000' 
-    : `http://${window.location.hostname}:3000`;
+const SOCKET_URL = 'http://10.0.60.95:3000'; 
 
 // Conectamos con el servidor de Socket.IO usando la URL dinámica
 const socket = io(SOCKET_URL);
